@@ -16,6 +16,11 @@
     </header>
     <main>
         <button class='new-task-button' id='new-task-button'>New Task</button>
+        <form action='/tasks' method='POST' id='form'>
+            <label for='input'>Task Name</label>
+            <input id='input' type='text' placeholder='Do Dishes'>
+            <input type='submit' value='submit'>
+        </form>
         <section aria-labelledby='region1'>
             <h2 id='region1'>Tasks</h2>
             <ol class='tasks-list' id='tasks-list'>
