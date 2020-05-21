@@ -1,9 +1,16 @@
 body {
     background-color: white;
 }
+
 .profile-picture-box {
     height: 100px;
     width: 100px;
-    border-style: solid;
+    border-style: double;
     border-width: 3px;
+    border-color: blue;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
 }
