@@ -1,0 +1,9 @@
+body {
+    background-color: white;
+}
+.profile-picture-box {
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-width: 3px;
+}
