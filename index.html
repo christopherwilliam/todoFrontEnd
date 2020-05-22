@@ -1,32 +1,32 @@
 <!DOCTYPE html>
-<html lang='en'>
-<link type='text/css' rel='stylesheet' href='index.css'>
+<html lang="en">
+<link type="text/css" rel="stylesheet" href="index.css">
 <head>
-    <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
 <body>
-    <header role='banner' class='profile' aria-label='profile information and picture'>
-        <img class='profile-picture-box profile-picture' src='./images/profilePictures/user1-profile-picture.png' alt='Profile Picture'>
-        <img class='skill-icon icon' src='images/icons/book-icon-small.png'>
-        <img class='skill-icon icon' src='images/icons/book-icon.png'>
-        <img class='skill-icon icon' src='images/icons/archery-60.png'>
+    <header role="banner" class="profile" aria-label="profile information and picture">
+        <img class="profile-picture-box profile-picture" src="./images/profilePictures/user1-profile-picture.png" alt="Profile Picture">
+        <img class="skill-icon icon" src="images/icons/book-icon-small.png">
+        <img class="skill-icon icon" src="images/icons/book-icon.png">
+        <img class="skill-icon icon" src="images/icons/archery-60.png">
     </header>
     <main>
-        <button class='new-task-button' id='new-task-button'>New Task</button>
-        <form action='/tasks' method='POST' id='form'>
-            <label for='input'>Task Name</label>
-            <input id='input' type='text' placeholder='Do Dishes'>
-            <input type='submit' value='submit'>
+        <button class="new-task-button" id="new-task-button">New Task</button>
+        <form class="hidden" action="/tasks" method="POST" id="form">
+            <label for="input">Task Name</label>
+            <input id="input" type="text" placeholder="Do Dishes" autocomplete="off">
+            <input type="submit" value="submit">
         </form>
-        <section aria-labelledby='region1'>
-            <h2 id='region1'>Tasks</h2>
-            <ol class='tasks-list' id='tasks-list'>
+        <section aria-labelledby="region1">
+            <h2 id="region1">Tasks</h2>
+            <ol class="tasks-list" id="tasks-list">
             </ol>
         </section>
     </main>
-    <script src='index.js'></script>
+    <script src="index.js"></script>
 </body>
 </html>
